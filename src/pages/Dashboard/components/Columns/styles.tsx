@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 const registrationStatusStyles: {
   [key in string]: { background: string; title: string };
 } = {
@@ -39,7 +40,7 @@ export const TitleColumn = styled.h3<{ status: any }>`
   margin: 24px;
 `;
 
-export const CollumContent = styled.div`
+export const ColumnContent = styled.div`
   overflow: auto;
   max-height: 85%;
 `;
